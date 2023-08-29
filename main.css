@@ -1,0 +1,577 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('./Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+body{
+    margin: 0;
+    font-family: Montserrat;
+}
+
+wrapper{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    overflow-x:hidden;
+    margin-left: -1%;
+}
+
+header {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1170px;
+}
+
+header .lins {
+    width: 534px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header .lins a {
+    text-decoration: none;
+    color: black;
+}
+
+header .numPhone {
+    color: #A52424;
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.mainPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mainPage .content h1 {
+    font-size: 72px;
+    letter-spacing: 6px;
+    margin-bottom: 2%;
+}
+
+.mainPage .content {
+    width: 35%;
+    margin-right: 7%;
+}
+
+.mainPage .content p {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+}
+
+.mainPage .content button {
+    padding: 4% 13%;
+    color: #A52424;
+    background-color: white;
+    font-size: 18px;
+    border-color: #A52424;
+    margin-top: 10%;
+}
+
+.AboutMe h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.AboutMe .billboardInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    letter-spacing: 1.1px;
+}
+
+.AboutMe .billboardInfo .description {
+    width: 55%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.AboutMe .billboardInfo .NameLastn {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+}
+.AboutMe .billboardInfo .NameLastn img{
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+.AboutMe .billboardInfo .NameLastn .whiteSQ{
+    width: 343px;
+    height: 560px;
+    position: absolute;
+    box-shadow: -20px 20px 20px 0px rgb(236, 236, 236), -9px 20px 20px 0px rgba(250, 250, 252, 0.123);
+}
+.AboutMe .billboardInfo .description p{
+    margin-bottom: 7%;
+}
+.AboutMe .billboardInfo .description p span{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.AboutMe .billboardInfo .description img{
+    box-shadow:15px 0px 0px 17px #ffffff, 18px 0px 12px 17px #b6b7b7;
+}
+
+.AboutMe .billboardInfo .NameLastn p{
+    letter-spacing: 1.5px;
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-right: 16%;
+}
+.portfolio{
+    width: 100%;
+}
+.portfolio h1{
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+.portfolio .portfolioContent{
+    letter-spacing: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.portfolio .portfolioContent div{
+    width: 377px;
+}
+.portfolio .portfolioContent h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+.portfolio .portfolioContent p{
+    margin-bottom: 10%;
+    font-size: 18px;
+}
+.portfolio .portfolioContent a{
+    text-decoration: none;
+    border: 1px solid #A52424;
+    color: #A52424;
+    padding: 5% 15%;
+    margin-bottom: 15%;
+}
+.prices{
+    width: 100%;
+}
+.prices h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 4%;
+    letter-spacing: 1px;
+}
+.prices .options{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+.prices .options .option{
+    font-size: 18px;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-shadow: 0px 11px 15px 0px #d7d6d6;
+}
+.prices .options .option img{
+    margin-top: 3%;
+}
+.prices .options .option table{
+    width: 86%;
+}
+.prices .options .option table td{
+    padding-bottom: 2%;
+}
+.prices .options .option table td:nth-child(2n){
+    text-align: end;
+    font-weight: 600;
+}
+.prices .options .option h2{
+    color: #A52424;
+    font-size: 24px;
+}
+.prices .options .option .price{
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.prices .options .option .price p{
+    color: #A52424;
+    font-size: 36px;
+    font-weight: 600;
+}
+.prices .options .option .price a{
+    color: #A52424;
+    font-size: 18px;
+    text-decoration: none;
+    border: 1px solid #A52424;
+    padding: 4% 7%;
+}
+.registrating h1{
+    font-size: 64px;
+    font-weight: 700;
+}.registrating{ 
+    width: 100%;
+}
+.registrating .content{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+.registrating .content .photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.registrating .content .fields{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;;
+    flex-direction: column;
+    align-content: flex-end;
+}
+.registrating .content .fields input, .fields textarea{
+    margin-bottom: 8%;
+    width: 91%;
+    color: #232323;
+    border: 1px solid #232323;
+    padding: 3%;
+    padding-right: 0;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+}
+.registrating .content .fields a{
+    width: 88%;
+    color: #A52424;
+    text-align: center;
+    border: 1px solid #A52424;
+    padding: 3%;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+footer{
+    border-top: 1px solid #232323;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .contener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+}
+footer p{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #A52424;
+}
+footer .medias{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 190px;
+}
+@media (max-width:1260px){
+    header{
+        justify-content: space-around;
+    }
+    .AboutMe h1 {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    .AboutMe .billboardInfo {
+        flex-direction: column;
+    align-items: center;
+    }
+    .AboutMe .billboardInfo .description {
+        margin-top: 5%;
+
+    }
+    .AboutMe .billboardInfo .description p {
+        text-align: center;
+    }
+    .registrating .content {
+        justify-content: space-evenly;
+    }
+    .registrating .content .fields input, .fields textarea{
+        width: 80%;
+    }
+    .registrating .content .fields a{
+        width: 77%
+    }
+    .registrating .content .fields {
+        
+        align-content: center;
+    }
+    footer .contener {
+        justify-content: space-around;
+    }
+}
+@media (max-width:1162px){
+    .mainPage .content {
+        margin-right: 3%;
+    }
+    .registrating .content .fields input, .fields textarea {
+        width: 70%;
+    }
+    .registrating .content .fields a{
+        width: 67%
+    }
+    .registrating .content .fields {
+        align-content: center;
+    }
+    .mainPage .content h1 {
+        letter-spacing: 2px
+    }
+    .mainPage img {
+        width: 50%;
+    }
+    .mainPage {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media (max-width:1130px){
+    .portfolio .portfolioContent {
+        justify-content: space-around;
+    } 
+    .portfolio .girlwithRose{
+        margin-top: 5%;
+    }
+    .portfolio h1 {
+        text-align: center;
+    }
+}
+@media (max-width:1000px){
+    .prices .options {
+        justify-content: center;
+    }
+    .prices h1 {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .AboutMe .billboardInfo .description {
+        align-items: flex-start;
+    }
+    .AboutMe .billboardInfo .description img{
+        width: 90%;
+    }
+}
+@media (max-width:915px){
+    .registrating .content .photos img{
+        width: 50%;
+    }
+    .mainPage .content h1 {
+        font-size: 62px;
+        letter-spacing: 1px;
+    }
+    header .lins {
+        width: 50%;
+        justify-content: space-evenly;
+    }
+    .registrating .content .fields {
+        justify-content: center;
+    }
+    .AboutMe .billboardInfo .NameLastn .whiteSQ {
+        width: 0;
+        height: 0;
+    }
+    .AboutMe .billboardInfo .NameLastn img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .AboutMe .billboardInfo .NameLastn p {
+        margin-left: 16%;
+        text-align: center;
+        margin-bottom: 0;
+        margin-top: 6%;
+    }
+    .AboutMe .billboardInfo .NameLastn {
+        align-items: center;
+        width: auto;
+    }
+}
+@media(max-width:777px){
+    .mainPage .content h1 {
+        font-size: 50px;
+        letter-spacing: 0;
+    }
+    .AboutMe .billboardInfo .description img {
+        margin-top: 4%;
+    }
+}
+@media (max-width:753px){
+    .morningPhoto{
+        margin-top: 5%;
+    }
+}
+@media (max-width:680px){
+    .mainPage .content h1 {
+        font-size: 40px;
+    }
+    .mainPage .content p {
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0;
+    }
+    .mainPage .content button {
+        padding: 3% 6%;
+        font-size: 15px;
+    }
+    header {
+        flex-direction: column;
+    }
+    header .lins {
+        width: 70%;
+    }
+    header .numPhone {
+        font-size: 13px
+    }
+    footer .contener {
+        justify-content: space-evenly;
+    }
+    footer .medias {
+        justify-content: space-evenly;
+    }
+    footer p {
+        font-size: 13px;
+    }
+}
+@media (max-width:480px){
+    .mainPage .content h1 {
+        font-size: 30px;
+    }
+    .mainPage .content p {
+        font-size: 13px;
+    }
+    .morningPhoto {
+        margin-top: 10%;
+    }
+    .portfolio .girlwithRose {
+        margin-top: 10%;
+    }
+    .portfolio .portfolioContent img{
+        width: 70%;
+    }
+    .portfolio{
+        text-align: center;
+    }
+    .portfolio h1 {
+        font-size: 50px;
+    }
+    .prices h1 {
+        font-size: 50px;
+    }
+    .registrating h1 {
+        font-size: 50px;
+    }
+    .registrating .content .photos {
+        flex-direction: column;
+    }
+    .registrating .content .photos img {
+        width: 80%;
+    }
+}
+@media (max-width:370px){
+    .mainPage .content h1 {
+        font-size: 20px;
+    }
+    .registrating h1 {
+        font-size: 35px;
+    }
+    .portfolio h1 {
+        font-size: 35px;
+    }
+    .prices h1 {
+        font-size: 35px;
+    }
+    .AboutMe h1 {
+        font-size: 35px;
+    }
+    .prices .options .option {
+        font-size: 16px
+    }
+    .prices .options .option h2 {
+        font-size: 18px;
+    }
+    .prices .options .option .price p {
+        font-size: 20px;
+    }
+    .registrating .content .fields input, .fields textarea {
+        font-size: 16px;
+        width: 80%;
+    }
+    .registrating .content .fields a {
+        width: 77%;
+        font-size: 16px;
+    }
+    .mainPage img {
+        width: 58%;
+    }
+}
